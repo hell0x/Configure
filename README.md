@@ -17,3 +17,5 @@ ctrl+shift+r			当前窗口替换文本
 ctrl+shift+u			大小写转换
 
 shift+enter				新一行
+
+alt+insert 				generate
