@@ -1,0 +1,36 @@
+购物车监控系统:
+主要是对购物车业务产生的数据实现管理和统计的系统
+
+物理结构
+			Routing		security		
+index.php	   |						application		model
+			cache		view	
+
+index.php	入口文件(常量的定义)
+lead.php	引导文件
+	(加载common.php,config.php,data.php)
+	自定义错误异常处理
+Routing		解析出$controller,$action,$params，实例化控制器
+security
+	登录方面
+	输入过滤方面
+application
+	登录方面
+	物理机管理
+	虚拟机管理
+	马甲站数据统计		
+	日志模块：登录退出时间
+	缓存
+	vpn下发删除
+定时获取数据
+前端用的bootstrap和highcharts
+
+model
+	数据库处理
+	缓存类
+	vpn处理类
+
+页面缓存
+
+
+session存redis（分布式系统redis共享），经过
