@@ -1,0 +1,53 @@
+知识点
+
+php
+	解释型语言，底层实现
+	system cmd等php执行shell命令函数
+	魔术方法
+	php垃圾回收机制
+	php基本函数
+		字符串处理
+		函数处理
+		文件处理
+	xml
+	laravel
+	php扩展
+	php配置
+	php 执行过程
+mysql
+	锁
+	mysql数据文件结构
+	索引
+	Hash索引
+	各种引擎
+	innodb的事务与日志的实现方式
+
+linux
+	1>&2 输出重定向处理
+	awk
+	inode
+	/etc/skel/ /etc/profile.d/ 等目录的意思
+	&和&&,|和||
+	文件系统
+
+数据结构
+	不同元素依次进栈，有（）不同的出栈序列  卡兰特数
+
+HTTP
+TCP/IP
+	ARP RARP
+层级关系
+
+设计模式
+	单例模式
+	设计模式分类
+		创建型模式
+		结构型模式
+		行为型模式
+	设计原则
+
+apache
+nginx
+
+正则表达式
+	修饰符

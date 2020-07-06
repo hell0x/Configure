@@ -1,0 +1,38 @@
+php
+	swoole，laravel，ci
+
+Mysql
+	sql优化
+	数据库设计
+
+linux
+	基本命令
+	lnmp工作原理及配置
+	shell
+
+Nosql
+	redis
+
+c语言
+go语言
+
+系统
+	设计模式
+	系统分析
+	架构设计
+	性能优化
+
+高并发！！！
+
+微服务！！！
+	微服务理念
+	开源微服务框架istio   	ServiceMesh技术
+	至少有一种容器的集群调试平台使用经验 （Kubernetes等）
+
+大访问量
+
+网关
+
+缓存、队列、存储、网络、代理、配置等各种服务端开源方案有充分了解和实践；
+
+HTML/CSS/Javascript/jQuery/Ajax
