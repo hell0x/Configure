@@ -1,13 +1,14 @@
-Rusume
-1.coupon-sdk 运营位
-2.设计模式
-3.Mysql的优化，应用到1里面
-4.swoole table 协程
-5.websocket建立长链接
-
-other
-算法
-Mysql b+树
-HTTP
-PHP底层结构
-redis底层结构
+c->company h->home
+swoole							c
+	swoole 协程
+	swoole table
+设计模式							h
+基本算法							h
+Mysql 							c
+	索引 b+
+	事务
+redis 							c
+	基本机构
+	缓存清理
+HTTP							c
+php底层基本结构					c
