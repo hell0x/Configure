@@ -5,10 +5,11 @@ swoole							c
 设计模式							h
 基本算法							h
 Mysql 							c
-	索引 b+
+	索引 b+树
+		
 	事务
 redis 							c
-	基本机构
+	基本结构
 	缓存清理
 HTTP							c
 php底层基本结构					c
