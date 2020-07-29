@@ -6,10 +6,12 @@ swoole							c
 基本算法							h
 Mysql 							c
 	索引 b+树
-		
+
 	事务
 redis 							c
 	基本结构
 	缓存清理
 HTTP							c
 php底层基本结构					c
+resume能说清楚					hc
+b上的resume						hc
