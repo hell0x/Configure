@@ -1,0 +1,37 @@
+项目的架构描述一下
+innodb为什么插入快，myisam查询快
+	innodb要缓存数据，myisam只用缓存索引块
+	innodb要寻址到块，再到行，mysql直接记录的是文件的offset
+swoole了解
+php的底层
+redis的底层
+	string
+		sds
+			通过 len 属性， sdshdr 可以实现复杂度为 θ(1) 的长度计算操作
+			空间预分配，用free记录未使用的大小
+			buff里面的数据进行了二进制安全处理
+
+	hash
+		链地址法
+			将所有具有相同哈希地址的而不同关键字的数据元素连接到同一个单链表中
+	zset
+		跳表
+秒杀
+乐观锁，悲观锁
+	https://juejin.im/post/6844903639207641096#heading-6
+树的遍历
+接口冪等性
+linux查文件名字数量
+csrf
+nginx
+	主模块
+	时间模块
+	http部分
+		端口
+		host
+		location等的配置
+发号器咋实现的
+	雪花算法(全局唯一id)
+redis持久化
+	Redis可以通过创建快照来获得存储在内存⾥⾯的数据在某个时间点上的副本
+	开启AOF持久化后每执⾏⼀条会更改Redis中的数据的命令，Redis就会将该命令写⼊硬盘中的AOF⽂件
